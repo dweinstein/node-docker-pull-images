@@ -1,3 +1,7 @@
+[![NPM](https://nodei.co/npm/docker-pull-images.png)](https://nodei.co/npm/docker-pull-images/)
+
+[![npm version](https://badge.fury.io/js/docker-pull-images.svg)](http://badge.fury.io/js/docker-pull-images)
+
 # SYNOPSIS
 
 Pull images using `child_process.spawn` of docker client.
