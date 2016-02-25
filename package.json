@@ -1,5 +1,5 @@
 {
-  "name": "docker-pull",
+  "name": "docker-pull-images",
   "version": "1.0.0",
   "description": "pull multiple images/tags by wrapping the docker CLI tool",
   "main": "index.js",
