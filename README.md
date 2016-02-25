@@ -16,7 +16,7 @@ Example images input (e.g., file named `images.json`):
 ```json
 [
   {
-    "name": "registry.nowsecure.io/viaforensics/vmatrix-ios-static",
+    "name": "registry.foo.bar/thing/foo",
     "tag": "dev"
   }
 ]
