@@ -1,0 +1,27 @@
+{
+  "name": "docker-pull",
+  "version": "1.0.0",
+  "description": "pull multiple images/tags by wrapping the docker CLI tool",
+  "main": "index.js",
+  "bin": {
+    "pull-images": "./pull-images.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "pull",
+    "workstation"
+  ],
+  "author": "dweinstein",
+  "dependencies": {
+    "async": "^1.5.2",
+    "chalk": "^1.1.1",
+    "minimist": "^1.2.0",
+    "rc": "^1.1.6",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
