@@ -13,7 +13,7 @@ function getImages (images) {
     stderr: through()
   };
 
-  async.map(images, function (image, done) {
+  async.mapSeries(images, function (image, done) {
     console.log(c.green('pulling docker image'), image);
     const name = `${ image.name }${ image.tag ? (':' + image.tag) : ''}`;
     const ps = spawn('docker', ['pull', name], { });
